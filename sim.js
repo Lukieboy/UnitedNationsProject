@@ -3118,7 +3118,7 @@ submit.addEventListener('click', ()=>{
       questionContainer.style.background="rgb(154, 248, 201, 0.5)";
       document.querySelector(".msg").innerHTML="That's Correct! Good Job";
       good=true;
-      if(tries==0){firstry++;}
+      if(tries==0){firstry++; console.log(firstry);}
   }else{
       questionContainer.style.background="rgba(147, 40, 51, 0.5)";
       document.querySelector(".msg").innerHTML="Sorry, that was wrong. Please Retry";
@@ -3128,7 +3128,7 @@ submit.addEventListener('click', ()=>{
 next.addEventListener('click', ()=>{
 if(good==true){
   questionNumber++;
-  if(questionNumber==5){finish();}
+  if(questionNumber==7){finish();}
   runQuestion(questionNumber);
   good=false;
   tries=0;
