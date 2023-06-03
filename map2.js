@@ -5,7 +5,7 @@ google.charts.load('current', {
 
   function drawRegionsMap() {
     var data = google.visualization.arrayToDataTable([
-      ['Country', 'Plastic Waste'],
+      ['Country', 'Plastic Waste(tons)'],
       ['Albania', 0.543214162],
       ['Algeria', 0.134113767],
       ['Angola', 0.027022781],
