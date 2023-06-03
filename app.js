@@ -621,8 +621,8 @@ line2.addEventListener('click', ()=>{
     barspot.style.display="none";
     let realmap = document.querySelector('#map1');
     realmap.style.display="none";
-    barGraph();
-    title2.innerHTML="Leading exporting countries of fish and fishery products worldwide in 2020";
+    lineGraph2();
+    title2.innerHTML="Exportation of fish and fishery products in of U.S. dollars";
 //    subtitle.innerHTML="From Bridgewater State University.";
 });
 
@@ -634,8 +634,8 @@ bar.addEventListener('click', ()=>{
     aquaspot.style.display="none";
     let realmap = document.querySelector('#map1');
     realmap.style.display="none";
-    lineGraph2();
-    title2.innerHTML="Exportation of fish and fishery products in millions of U.S. dollars";
+    barGraph();
+    title2.innerHTML="Leading exporting countries of fish and fishery products worldwide in 2020";
     // subtitle.innerHTML="From NOAA";
 });
 
@@ -647,7 +647,7 @@ map2.addEventListener('click', ()=>{
     realmap.style.display="block";
     aquaspot.style.display="none";
     barspot.style.display="none";
-         title2.innerHTML="Fish and Seafood Production by country (2020)";
+    title2.innerHTML="Fish and Seafood Production by country (2020)";
     // subtitle.innerHTML="Data from Our World in Data, 2020. This is an annual estimate of plastic emissions. A country's total does not include the waste that is exported overseas and that may be at higher risk of entering the ocean.";
 });
 map2.click();

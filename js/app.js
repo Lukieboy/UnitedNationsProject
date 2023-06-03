@@ -622,7 +622,7 @@ line2.addEventListener('click', ()=>{
     let realmap = document.querySelector('#map1');
     realmap.style.display="none";
     lineGraph2();
-    title2.innerHTML="Leading exporting countries of fish and fishery products worldwide in 2020";
+    title2.innerHTML="Exportation of fish and fishery products in of U.S. dollars";
 //    subtitle.innerHTML="From Bridgewater State University.";
 });
 
@@ -635,7 +635,7 @@ bar.addEventListener('click', ()=>{
     let realmap = document.querySelector('#map1');
     realmap.style.display="none";
     barGraph();
-    title2.innerHTML="Exportation of fish and fishery products in millions of U.S. dollars";
+    title2.innerHTML="Leading exporting countries of fish and fishery products worldwide in 2020";
     // subtitle.innerHTML="From NOAA";
 });
 

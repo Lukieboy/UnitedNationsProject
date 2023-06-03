@@ -5,7 +5,7 @@ google.charts.load('current', {
 
   function drawRegionsMap() {
     var data = google.visualization.arrayToDataTable([
-      ['Country', 'Seafood Production(tons)'],
+      ['Country', 'Seafood Production'],
       ['Afghanistan', 10100],
       ['Albania', 12690],
       ['Algeria', 104880],
