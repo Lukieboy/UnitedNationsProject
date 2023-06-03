@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Nations Sustainable Development Goals</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/baugetteBox.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/codingLogo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/codingLogo.png">
+    <link rel="icon" href="https://www.un.org/sites/un2.un.org/files/2019/12/sdg_wheel_print_transparent.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.esm.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.esm.bundle.js"></script>
+</head>
+<body>
+    <!-- Quick style to get rid of space on the right -->
+    <style>html,body
+      {
+          width: 100%;
+          height: 100%;
+          margin: 0px;
+          padding: 0px;
+          overflow-x: hidden; 
+      }</style>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="home">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="second.html">Goal 13</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Goal 14</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="third.html">Connections</a>
+              </li>
+
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+
+
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+    <!-- BG video -->
+    <div class="bg-video">
+      <div class="arrow">
+        <a href="#start">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 100 100" width="100pt" height="100pt"><defs><clipPath id="_clipPath_8p1D8SF1ivGH24BxOqLdsAyUqDIB2NpT"><rect width="100" height="100"></rect></clipPath></defs><g clip-path="url(#_clipPath_8p1D8SF1ivGH24BxOqLdsAyUqDIB2NpT)"><mask id="_mask_IO36ZFClcEPAdBBuRfFIJS0jMqmpCvu5"><path d=" M 29 35.5 L 50 56.5 L 72 36.5 L 72 43.5 L 50 64.5 L 29 43.5 L 29 35.5 Z " fill="white" stroke="none"></path></mask><path d=" M 29 35.5 L 50 56.5 L 72 36.5 L 72 43.5 L 50 64.5 L 29 43.5 L 29 35.5 Z " fill="none"></path><path d=" M 29 35.5 L 50 56.5 L 72 36.5 L 72 43.5 L 50 64.5 L 29 43.5 L 29 35.5 Z " fill="none" mask="url(#_mask_IO36ZFClcEPAdBBuRfFIJS0jMqmpCvu5)" vector-effect="non-scaling-stroke" class="fill" stroke-width="8" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3" style="stroke: rgb(168, 248, 255);"></path></g></svg>
+        </a>
+      </div>
+      <video autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
+        <source src="underwater.mp4" />
+        <source src="http://thenewcode.com/assets/videos/ocean-small.mp4" />
+      </video>
+       <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
+        <defs>
+        <mask id="mask" x="0" y="0" width="100%" height="100%" >
+          <rect x="0" y="0" width="100%" height="100%"/>
+          <text x="100"  y="47" style="font-size:20px;">Goal 14</text>
+        </mask>
+      </defs>
+     <rect x="0" y="0" width="100%" height="100%" />
+      </svg>
+    </div>
+
+
+    <!-- SUMMARY(both sections) -->
+    <div class="row white">
+    <div class="col-sm-6 container summary" style="width:40%">
+      <h3 class=" change margin-up" style="font-size:45px;margin-bottom:20px" id="start">Goal 14: Life Below Water</h3>
+      <h4>What is Goal 14?</h4>
+      <p>Goal 14: Life Below Water is the part of the United Nations Sustainable Development Goals (UNSDGs). It aims to "Conserve and sustainably use the oceans, seas and marine resources for sustainable development". Due to overfishing, pollution, ocean acidification, and climate change, the marine ecosystems are in a lot of danger. Unless we take action against it, all the oceans, animals, and marine ecosystems will be destroyed, and everyone will face sever consequences.   </p>
+
+      <h4>Why is Goal 14 important?</h4>
+      <p>
+Goal 14 is extremely important to the preservation of oceans, seas, and marine ecosystems. Almost 3 billion people depend on the oceans for their livelihood. If ocean pollution continues as it is today, fish could be almost all gone by 2048, coral reefs could be completely gone, the ocean would be full of plastic, and it would cause devastating effects to the the lives of humans and animals. By focusing on Goal 14, we can help protect marine ecosystems, biodiversity, address climate change impacts, and help ensure the health and sustainability of our oceans for the future.</p>
+      <a href="https://sdgs.un.org/goals" target="blank"><button class="bttn-fill bttn-md bttn-primary charityname" type="button"><p class="charityname">UN Website</p></button></a><br><br>
+    </div>
+
+      <div class="col-sm-6">
+        <h3 class="text-center change margin-up pad" style="font-size:45px;margin-bottom:20px" >Targets</h3>
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="https://sdgs.un.org/sites/default/files/goals/goal-14.png" style="display:inline;" width="60px"><h2 style="display:inline;">Target 14.1</h2>
+              <p>By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution.              </p>
+              <img src="data:image/jpeg;base64,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" width="500px">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://sdgs.un.org/sites/default/files/goals/goal-14.png" style="display:inline;" width="60px"><h2 style="display:inline;">Target 14.2</h2>
+              <p>By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant adverse impacts, including by strengthening their resilience, and take action for their restoration in order to achieve healthy and productive oceans
+              </p>
+              <img src="https://pfbc-cbfp.org/files/docs/news/7-2020/-Annotation%202020-07-19%20124926.jpg" width="500px">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://sdgs.un.org/sites/default/files/goals/goal-14.png" style="display:inline;" width="60px"><h2 style="display:inline;">Target 14.3</h2>
+              <p>Minimize and address the impacts of ocean acidification, including through enhanced scientific cooperation at all levels
+              </p>
+              <img src="https://www.whoi.edu/wp-content/uploads/2018/01/1280Fig_1_482893-1200x676.jpg" width="500px">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://sdgs.un.org/sites/default/files/goals/goal-14.png" style="display:inline;" width="60px"><h2 style="display:inline;">Target 14.4</h2>
+              <p>By 2020, effectively regulate harvesting and end overfishing, illegal, unreported and unregulated fishing and destructive fishing practices and implement science-based management plans, in order to restore fish stocks in the shortest time feasible, at least to levels that can produce maximum sustainable yield as determined by their biological characteristics</p>
+              <img src="https://files.worldwildlife.org/wwfcmsprod/images/Fishing_Net/story_full_width/9t3d6gqugs_shutterstock_513364243.jpg" width="400px">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://sdgs.un.org/sites/default/files/goals/goal-14.png" style="display:inline;" width="60px"><h2 style="display:inline;">Target 14.5</h2>
+              <p>By 2020, conserve at least 10 per cent of coastal and marine areas, consistent with national and international law and based on the best available scientific information</p>
+              <img src="https://www.sacredheart.edu/media/shu-media/biology/coastal_marine_science_1220x523.jpg" width="500px">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://sdgs.un.org/sites/default/files/goals/goal-14.png" style="display:inline;" width="60px"><h2 style="display:inline;">Target 14.6</h2>
+              <p>By 2020, prohibit certain forms of fisheries subsidies which contribute to overcapacity and overfishing, eliminate subsidies that contribute to illegal, unreported and unregulated fishing and refrain from introducing new such subsidies, recognizing that appropriate and effective special and differential treatment for developing and least developed countries should be an integral part of the World Trade Organization fisheries subsidies negotiation
+              </p>
+              <img src="https://www.wideopenspaces.com/wp-content/uploads/sites/3/2016/10/no-fishing-sign-final.jpg?fit=900%2C484" width="500px">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://sdgs.un.org/sites/default/files/goals/goal-14.png" style="display:inline;" width="60px"><h2 style="display:inline;">Target 14.7</h2>
+              <p>By 2030, increase the economic benefits to Small Island developing States and least developed countries from the sustainable use of marine resources, including through sustainable management of fisheries, aquaculture and tourism
+              </p>
+              <img src="https://s9h7f8a7.rocketcdn.me/wp-content/uploads/2019/10/0a1a-53.jpg" width="400px">
+            </div>
+            <div class="swiper-slide">   
+              <img src="https://sdgs.un.org/sites/default/files/goals/goal-14.png" style="display:inline;" width="60px"><h2 style="display:inline;">Target 14.a</h2>
+              <p>Increase scientific knowledge, develop research capacity and transfer marine technology, taking into account the Intergovernmental Oceanographic Commission Criteria and Guidelines on the Transfer of Marine Technology, in order to improve ocean health and to enhance the contribution of marine biodiversity to the development of developing countries, in particular small island developing States and least developed countries
+              </p>
+              <img src="https://images.theconversation.com/files/444663/original/file-20220206-17-xlrkyz.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" width="400px">
+            </div>
+              <div class="swiper-slide">
+                <img src="https://sdgs.un.org/sites/default/files/goals/goal-14.png" style="display:inline;" width="60px"><h2 style="display:inline;">Target 14.b</h2>
+                <p>Provide access for small-scale artisanal fishers to marine resources and markets                  .</p>
+                <img src="https://scx1.b-cdn.net/csz/news/800a/2017/smallscalefi.jpg" width="500px">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://sdgs.un.org/sites/default/files/goals/goal-14.png" style="display:inline;" width="60px"><h2 style="display:inline;">Target 14.c</h2>
+                <p>Enhance the conservation and sustainable use of oceans and their resources by implementing international law as reflected in United Nations Convention on the Law of the Sea, which provides the legal framework for the conservation and sustainable use of oceans and their resources, as recalled in paragraph 158 of "The future we want"                </p>
+                <img src="https://hir.harvard.edu/content/images/size/w600/2019/10/thumb_660_46339fcf-6e24-4299-ab98-ce33ac8cabe6.jpg" width="500px">
+              </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <script>
+             var swiper = new Swiper('.swiper-container', {
+       navigation: {
+         nextEl: '.swiper-button-next',
+         prevEl: '.swiper-button-prev',
+       },
+     });
+     </script>     
+      </div>
+    </div>
+
+
+    <!-- IMAGE REAL TIME STATS -->
+    <h3 class="text-center change margin-up" style="font-size:50px;">Stats on Life Below Water</h3>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm st">
+          <div class="stat">
+            <iframe class="seafood" title='Time left to the end of seafood' src='https://www.theworldcounts.com/embeds/counters/94?color=white&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=17' style='border: none' height='100' width='300'></iframe>
+          </div>
+          <img class="img-fluid statimg" src="images/seafood.png">
+        </div>
+        <div class="col-sm st">
+          <div class="stat">
+            <iframe title='Tons of plastic waste dumped in oceans' height="96" src='https://www.theworldcounts.com/embeds/counters/109?color=white&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=17' style='border: none' height='100' width='300'></iframe>
+          </div>
+          <img src="images/plastic.png" class="img-fluid statimg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm st">
+          <div class="stat">
+            <iframe title='Percent coral reefs left' src='https://www.theworldcounts.com/embeds/counters/1?color=white&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=17' style='border: none' height='100' width='300'></iframe>
+          </div>
+          <img src="images/coral.png" class="img-fluid statimg">
+        </div>
+        <div class="col-sm st">
+          <div class="stat">
+            <iframe title='Tons of discarded fish' src='https://www.theworldcounts.com/embeds/counters/7?color=white&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=17' style='border: none' height='100' width='300'></iframe>          </div>
+          <img src="images/discardedfish.png" class="img-fluid statimg">
+          </div>
+        </div>
+    </div>
+
+
+    <!-- Stats on Ocean pollution -->
+    <div class="white1 padding-up">
+      <div class="statss">
+                <h2 class="text-center graph" style="font-size:50px;" >Ocean Pollution</h2>
+                <div class="row btn-group-toggle">
+                  <button class="btn btn-success map col-sm one">Plastic Waste Map</button>
+                  <button class="btn btn-success line col-sm two">Ocean Plastic Graph</button>
+                  <button class="btn btn-success pie col-sm three">Ocean pollution pie chart</button>
+                </div>
+
+                <h3 class="text-center change graph graphtitle" style="font-size:30px;margin-top:60px;" >Amount of plastic in the Ocean(millions of tonnes)    <p class="align graphsubtitle" style="font-size:10px;">From Bridgewater State University.</p></h3>
+                
+                <div id="map2" style="width: 1100px; height: 600px;margin:auto;"></div>
+
+                <div class="">
+                  <canvas id="chart" width="1600px" height="700px"></canvas>
+                </div>
+                <div class="">
+                  <canvas id="chart1" width="1600px" height="700px"></canvas>
+                </div>
+            </div>
+    </div>
+
+
+    <!-- Stats on Seafood Production -->
+    <div class="statss1">
+        <h2 class="text-center change graph margin-up" style="font-size:50px;margin-top:60px;margin-bottom:20px;" >Fish and Seafood Production</h2>
+        <div class="row">
+          <button class="btn btn-primary map col-sm map2 onea">Seafood Production Map</button>
+          <button class="btn btn-primary line col-sm line2 twoa">Leading Exports of fishery products</button>
+          <button class="btn btn-primary pie col-sm bar threea">Exportation of fishery products</button>
+        </div>
+
+        <h3 class="text-center change graph graphtitle2" style="font-size:30px;margin-top:60px;" > <p class="align graphsubtitle" style="font-size:10px;">From Bridgewater State University.</p></h3>
+        
+        <div id="map1" style="width: 1100px; height: 600px;margin:auto; padding-bottom:20px;"></div>
+        <canvas id="aquachart" width="600" height="250"></canvas>
+        <canvas id="barchart" width="600" height="250"></canvas>
+
+    </div>
+
+    <!-- Fun facts -->
+    <div class="white">
+
+    <h3 class="text-center change padding-up" style="font-size:50px;" >Fun Facts</h3>
+      <div class="container text-center fun-fact-container">
+        <div class="row">
+          <div class="col-sm ffcontainer">
+            <h1 style="font-size:20px; margin-bottom:20px;"><span class="funfact"> hehafhdlskfiasgfkljasdgfhjlgsk</span></h1>
+            <img class="funfactimg" src="" style="margin-bottom:10px;">
+            <button class="bttn-fill bttn-md bttn-primary generate">Generate Next</button><br>
+            <a href="" class="learnmore" target="blank"><button class="bttn-fill bttn-md bttn-danger learn">Learn More</button></a>
+          </div>
+          <!-- <div class="col-sm">
+            <button class="bttn-fill bttn-md bttn-danger generate">Generate Next</button><br>
+            <button class="bttn-fill bttn-md bttn-danger learn">Learn More</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Quiz -->
+    <h3 class="text-center change margin-up" style="font-size:50px;margin-top:80px;" >Quiz</h3>
+    <div class="container text-center question-container">
+      <div class="row">
+        <div class="col-sm question">Question:<span class="questionContent">hehafhdlskfiasgfkljasdgfhjlgsk</span></div>
+      </div>
+      <div class="col-sm option1"></div>
+      <div class="col-sm option2"></div>
+      <div class="col-sm option3"></div>
+      <div class="col-sm option4"></div>
+      <p class="msg"></p>
+      <div class="row">
+        <button class="bttn-fill bttn-md bttn-success question-submit">Submit</button>
+        <button class="bttn-fill bttn-md bttn-primary next">Next</button>
+      </div>
+    </div>
+
+    <!-- How to help -->
+    <div class="white margin-up">
+      <h3 class="text-center change padding-up" style="font-size:50px;" >How to help</h3>
+      <div class="container setting">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="https://files.globalgiving.org/pfil/18457/pict_large.jpg?m=1412854289000" class="img-fluid charityimg">
+          </div>
+
+          <div class="col">
+            <h3>Protect Coral Reefs in Malaysia</h3>
+            <p>Reef Check Malaysia works to conserve Malaysia's ocean and marine ecosystems. Malaysia is part of the Coral Triangle, home to more than 75% of the world's coral species. Our Projects are based in 3 locations in Malaysia - Tioman Island, Mersing group of islands, and Mantanani Island. Our teams are based on these islands, where they work with the local communities to empower them to look after the marine resources.</p>
+            <a href="https://www.globalgiving.org/projects/reefs-malaysia/" target="blank"><button class="bttn-fill bttn-md bttn-success charityname" type="button"><p class="charityname">Donate</p></button></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="images/turtle.jpg" class="img-fluid charityimg">
+          </div>
+
+          <div class="col">
+            <h3>Rescue & Protect Sea Turtles in Thailand and Asia</h3>
+            <p>The turtle population is in a critical state worldwide, however, in areas with high tourist numbers the species is even more threatened. Our goal is to create awareness around the sensitive nesting and breeding areas of these creatures, create safe and effective breeding grounds for them as well as provide emergency care to those in need. By doing this we hope to allow for sustainable tourism that doesn't inhibit the population growth of the turtles</p>
+            <a href="https://www.globalgiving.org/projects/reefs-malaysia/" target="blank"><button class="bttn-fill bttn-md bttn-success charityname" type="button"><p class="charityname">Donate</p></button></a>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-sm-4">
+            <img src="https://1471793142.rsc.cdn77.org/data/images/full/56488/plastic-waste-close-to-a-river.jpg" class="img-fluid charityimg">
+          </div>
+
+          <div class="col-sm">
+            <h3>Teamseas</h3>
+            <p>Teamseas pledges to remove 30,000,000 pounds (14,000,000 kg) of marine debris from the ocean by removing 1 pound (0.45 kg) of marine debris from the ocean for every 1 dollar donated. </p>
+            <a href="https://www.globalgiving.org/projects/reefs-malaysia/" target="blank"><button class="bttn-fill bttn-md bttn-success charityname" type="button"><p class="charityname">Donate</p></button></a>
+          </div>
+
+      </div>
+      </div>
+    </div>
+
+    <!-- Photo Gallery -->
+    <h3 class="text-center change margin-up" style="font-size:50px; margin-top:40px;">Photo Gallery</h3>
+    <div class="gallery">
+  <div class="grid row">
+
+    <div class="col-sm">
+        <a href="images/bluewhale.jpeg" data-caption="A picture of a Blue Whale. There are only 10,000 to 25,000 Blue Whales remaining due to human activity.">
+        <img src="images/bluewhale.jpeg" alt="Blue Whale" class="img-fluid">
+        </a>
+
+        <a href="https://media.cnn.com/api/v1/images/stellar/prod/140624164657-indonesia-ocean-trash.jpg?q=w_3000,h_2000,x_0,y_0,c_fill/w_1280" data-caption="This is an image of the a beach filled with trash. In the ocean, there is the Great Pacific Garbage Patch. It has 30,000 tons of garbage, and it's area is comparable to the size of Europe.">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/140624164657-indonesia-ocean-trash.jpg?q=w_3000,h_2000,x_0,y_0,c_fill/w_1280" alt="Garbage Patch" class="img-fluid">
+        </a>
+
+        <a href="https://cdn.britannica.com/07/152307-050-6FD0D3EE/Iceberg-waters-Antarctica.jpg" data-caption="As climate change continues, there is rapid glacial melt in Antarctica and Greenland, changing ocean current and causing sea levels to rise. ">
+            <img src="https://cdn.britannica.com/07/152307-050-6FD0D3EE/Iceberg-waters-Antarctica.jpg" alt="Glacier" class="img-fluid">
+        </a>
+      </div>
+
+      <div class="col-sm">
+        <a href="https://idsb.tmgrup.com.tr/ly/uploads/images/2021/06/23/123837.jpg" data-caption="This is Australia's Great barrier Reef. The widest sections reach up to 65 kilometers, and it is home to 600 types of corals, over 100 species of jellyfish, 3000 varieties of molluscs, 500 species of worms, 1625 types of fish, 133 varieties of sharks and rays, and more than 30 species of whales and dolphin. 60% of the Great Barrier Reef has moderate or severe bleeching. ">
+            <img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2021/06/23/123837.jpg" alt="iceberg" class="img-fluid">
+        </a>
+
+        <a href="https://chinadialogueocean.net/content/uploads/2022/02/nasca-ridge-industrial-fishing-in-national-park-protected-area-scaled-2.jpg" data-caption="Anchovy fishing near the port city of Chimbote in northern Peru. All resource extraction is normally prohibited in marine reserves, but the Nasca Ridge reserve permits some industrial fishing. Overfishing is a big problem, and it is predicted that there will be virtually no fish remaining by 2048.">
+            <img src="https://chinadialogueocean.net/content/uploads/2022/02/nasca-ridge-industrial-fishing-in-national-park-protected-area-scaled-2.jpg" alt="Fish" class="img-fluid">
+        </a>
+
+        <a href="https://dialogochino.net/wp-content/uploads/2023/01/Clean-up-after-Repsol-oil-spill-Peru_Pilar-Olivares_Alamy_2HG5CR8-scaled.jpg" data-caption="Image of a worked cleaning up the thousands of barrels of oil spilled from a refinery owned by Spanish company Repsol in January 2022. This complete economic distater caused thousands of animal deaths and caused a lot of detrimental effects to life below water. ">
+            <img src="https://dialogochino.net/wp-content/uploads/2023/01/Clean-up-after-Repsol-oil-spill-Peru_Pilar-Olivares_Alamy_2HG5CR8-scaled.jpg" alt="Oil Spill" class="img-fluid">
+        </a>
+      </div>
+
+      <div class="col-sm">
+        <a href="https://a-z-animals.com/media/2022/03/green-leather-sea-turtle-gazing-sea-grass-picture-id886544680.jpg" data-caption="This is the Leatherback Sea Turtle. Due to climate change, their habitats are changing, and they are a vulnerable species.">
+            <img src="https://a-z-animals.com/media/2022/03/green-leather-sea-turtle-gazing-sea-grass-picture-id886544680.jpg" alt="Sea turtles" class="img-fluid">
+        </a>
+
+        <a href="https://cdn.britannica.com/52/162652-050-6A676116/Polar-bears-ice-floe-Norway.jpg" data-caption="An image of three Polar bears in the arctic. It is predicted that Polar Bears will be extinct by 2100 if climate change continues on it's current trajectory.">
+            <img src="https://cdn.britannica.com/52/162652-050-6A676116/Polar-bears-ice-floe-Norway.jpg" alt="polar bea" class="img-fluid">
+        </a>
+
+        <a href="https://media.cnn.com/api/v1/images/stellar/prod/220215150203-03-sea-level-flood-climate-noaa-report-file.jpg?q=h_1933,w_3000,x_0,y_0" data-caption="Rising sea levels cause floods, and damages to ecosystems and people. By 2100, it is predicted that many cities will be underwater, including Venice, Italy, Miami, Florida, Mexico City, Mexico, and London, U.K. ">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/220215150203-03-sea-level-flood-climate-noaa-report-file.jpg?q=h_1933,w_3000,x_0,y_0" alt="Rising Sea Levels" class="img-fluid">
+        </a>
+      </div>
+</div>
+    </div> 
+    <br>
+
+    <!-- Footer -->
+    <footer class="d-flex">
+        <p class="footer-text">Copyright &copy; Lucas Allen 2023</p>
+       <a href="https://github.com/lukieboy" class="social-link" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="github"><path class="github-icon" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+      </a>
+    </footer>
+
+      
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script src="js/baugetteBox.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/map2.js"></script>
+    <script type="text/javascript" src="js/map3.js"></script>
+    <script type="text/javascript" src="js/data3.js"></script>
+    <script type="text/javascript" src="js/data4.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+</body>
+</html> 
